@@ -8,7 +8,20 @@ public abstract class MountainBike extends AbstractBike {
         super(wheel, color);
     }
 
-    protected MountainBike(WheelInterface wheel){
+    protected MountainBike(WheelInterface wheel)
+    {
         this(wheel, BikeColor.CHROME);
     }
+
+
+ @Override
+ public float getPrice(){
+        return 780.00f;
+ }
+
+
+
 }
+
+
+
